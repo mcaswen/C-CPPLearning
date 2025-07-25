@@ -1,2 +1,2 @@
-Personal C/C++ Learning notes
-Recording daily C/C++ study process
+Personal C/C++ Learning notes.
+Recording daily C/C++ study process.
