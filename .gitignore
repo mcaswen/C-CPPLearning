@@ -1,6 +1,6 @@
 /Compile
 *.data
-.vscode
+#.vscode
 *.obj
 out
 .DS_Store
