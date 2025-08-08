@@ -62,7 +62,8 @@
         "forward_list": "cpp",
         "fstream": "cpp",
         "any": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "type_traits": "cpp"
     },
     "cmake.sourceDirectory": "/Users/mcaswen/c:c++_code/Cherno_Mutiple Files Projects Learning"
 }
