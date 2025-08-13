@@ -114,14 +114,14 @@ int main() {
     s0 = std::get<0>(strings1);
     s1 = std::get<1>(strings1);
 
-    auto [s0, s1] = strings1;
+    auto [s3, s4] = strings1;
 
     auto strings2 = Fpair();
 
-    s0 = strings2.first;
-    s1 = strings2.second;
+    s3 = strings2.first;
+    s4 = strings2.second;
 
-    auto [s0, s1] = strings2;
+    auto [s5, s6] = strings2;
 
     //最佳实践
     strings strings3 = Fstruct();
@@ -129,6 +129,6 @@ int main() {
     s0 = strings3.s0; //变量名清晰，不是黑箱
     s1 = strings3.s1;
 
-    auto [s0, s1] = strings3; //c++17， 更简洁
+    auto [s7, s8] = strings3; //c++17， 更简洁
 
 }
